@@ -1,4 +1,4 @@
-Printd Project
+Printf Project
 A team project with Soufiane TANGI
 
 Great things in business are never done by one person, They are done by a team of people.
