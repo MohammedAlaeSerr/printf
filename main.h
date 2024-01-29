@@ -53,4 +53,7 @@ int printf_pointer(va_list va);
 /*Task 13*/
 int printf_rev(va_list va);
 
+/*Task 14*/
+int printf_rot(va_list va);
+
 #endif
