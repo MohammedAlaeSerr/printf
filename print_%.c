@@ -3,7 +3,7 @@
 /**
  * print_37 - prints %
  *
- * Return : An integer
+ * Return: An integer
  */
 int print_37(void)
 {
