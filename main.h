@@ -47,4 +47,6 @@ int printf_hex_extra(va_list va);
 /*Task 5*/
 int printf_string(va_list va);
 
+/*Task 6*/
+int printf_pointer(va_list va);
 #endif
