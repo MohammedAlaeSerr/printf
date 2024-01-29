@@ -27,7 +27,7 @@ int printf_HEX(unsigned int num);
 int _printf(const char *format, ...);
 
 /*Task 0*/
-int print_c(va_list  va);
+int printf_c(va_list  va);
 int printf_s(va_list va);
 int print_37(void);
 
