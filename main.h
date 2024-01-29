@@ -31,6 +31,7 @@ int print_37(void);
 
 /*Task 1*/
 int printf_int(va_list va);
+int printf_dec(va_list va);
 
 /*Task 2*/
 int printf_bin(va_list va);
