@@ -7,11 +7,11 @@
 int _printf(const char * const format, ...)
 {
 	convert_match m[] = {
-		{"%s", printf_string}, {"%c", printf_char},
+		{"%s", printf_s}, {"%c", printf_c},
 		{"%%", printf_37},
 		{"%i", printf_int}, {"%d", printf_dec}, {"%r", printf_srev},
 		{"%R", printf_rot13}, {"%b", printf_bin}, {"%u", printf_unsigned},
-		{"%o", printf_oct}, {"%x", printf_hex}, {"%X", printf_HEX},
+		{"%o", printf_oct}, {"%x", printf_hex}, {"%X", printf_hex_extra},
 		{"%S", printf_exclusive_string}, {"%p", printf_pointer}
 	};
 
@@ -30,7 +30,7 @@ Here:
 		{
 			if (m[j].id[0] == format[i] && m[j].id[1] == format[i + 1])
 			{
-				len += m[j].f(args);
+				len += m[j].fun(args);
 				i = i + 2;
 				goto Here;
 			}

@@ -1,5 +1,16 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stdio.h>
+#include <stdlib.h>
+#include <stadarg.h>
+#include <unistd.h>
+#include <limits.h>
+
+typedef format
+{
+	char *id;
+	int (*fun)();
+} convert_match;
 
 int _putchar(char c);
 int _strlen(char *str);
