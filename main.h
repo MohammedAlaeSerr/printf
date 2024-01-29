@@ -18,4 +18,9 @@ int printf_int(va_list va);
 /*Task 2*/
 int printf_bin(va_list va);
 
+/*Task 3*/
+int printf_unsigned(va_list args);
+int printf_oct(va_list va);
+int printf_hex(va_list va);
+
 #endif
