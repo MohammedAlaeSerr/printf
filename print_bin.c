@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * printf_bin - 
+ * printf_bin - converts to binary
+ * @va: argument to convert
  *
+ * Return: An integer
  */
 int printf_bin(va_list va)
 {
