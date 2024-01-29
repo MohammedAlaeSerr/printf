@@ -21,7 +21,9 @@ typedef struct format
 int _putchar(char c);
 int _strlen(char *str);
 int _strlen_c(const char *str);
+int printf_HEX(unsigned int num);
 
+/*_printf function*/
 int _printf(const char *format, ...);
 
 /*Task 0*/
@@ -41,5 +43,8 @@ int printf_unsigned(va_list args);
 int printf_oct(va_list va);
 int printf_hex(va_list va);
 int printf_hex_extra(va_list va);
+
+/*Task 5*/
+int printf_string(va_list va);
 
 #endif
